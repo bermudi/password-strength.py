@@ -26,7 +26,7 @@ def leet_speak_penalty(password):
     return penalty
 
 
-def further_modified_password_strength(password):
+def password_strength(password):
     """Evaluate the strength of a password."""
     # Adjusted base points due to password length
     score = len(password) * 10  # Linear function for length
