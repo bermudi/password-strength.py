@@ -25,6 +25,11 @@ Each detected "l33t" speak pattern deducts 15 points.
 ## Usage:
 To evaluate the strength of a password:
 
+## TODO
+ - Entropy check
+ - Character set size check
+ - Score: 100 / 100
+
 python
 Copy code
 score = password_strength(password)
